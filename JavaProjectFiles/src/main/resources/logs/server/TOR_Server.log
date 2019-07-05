@@ -1,0 +1,7 @@
+07/06/2019 12:39:56.254 - [INFO] - TOR UDP Server Started............
+07/06/2019 12:48:51.170 - [INFO] - TOR UDP Server Started............
+07/06/2019 12:56:44.111 - [INFO] - Received UDP Socket call for method[getEventSchedule] with parameters[OTWC7890]
+07/06/2019 12:57:35.248 - [INFO] - Received UDP Socket call for method[getEventSchedule] with parameters[OTWC7890]
+07/06/2019 12:58:11.418 - [INFO] - Received UDP Socket call for method[listEventAvailability] with parameters[CONFERENCES]
+07/06/2019 12:58:18.578 - [INFO] - Received UDP Socket call for method[listEventAvailability] with parameters[SEMINARS]
+07/06/2019 12:58:20.337 - [INFO] - Received UDP Socket call for method[listEventAvailability] with parameters[CONFERENCES]

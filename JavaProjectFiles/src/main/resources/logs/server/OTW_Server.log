@@ -1,0 +1,34 @@
+07/06/2019 12:39:51.789 - [INFO] - OTW UDP Server Started............
+07/06/2019 12:43:20.078 - [INFO] - METHOD[addEvent]; PARAMETERS[OTWM4560, OTWE080619, CONFERENCES, 1]; STATUS[true]; SERVER_MESSAGE[OTWE080619 Added.]
+07/06/2019 12:48:48.448 - [INFO] - OTW UDP Server Started............
+07/06/2019 12:49:11.570 - [INFO] - METHOD[addEvent]; PARAMETERS[OTWM4560, OTWE080619, CONFERENCES, 1]; STATUS[true]; SERVER_MESSAGE[OTWE080619 Added.]
+07/06/2019 12:49:24.078 - [INFO] - METHOD[addEvent]; PARAMETERS[OTWM4560, OTWE110619, CONFERENCES, 1]; STATUS[true]; SERVER_MESSAGE[OTWE110619 Added.]
+07/06/2019 12:51:11.064 - [INFO] - Received UDP Socket call for method[listEventAvailability] with parameters[CONFERENCES]
+07/06/2019 12:51:14.447 - [INFO] - Received UDP Socket call for method[listEventAvailability] with parameters[SEMINARS]
+07/06/2019 12:51:18.149 - [INFO] - Received UDP Socket call for method[listEventAvailability] with parameters[TRADESHOWS]
+07/06/2019 12:51:49.090 - [INFO] - Received UDP Socket call for method[getEventSchedule] with parameters[TORC1234]
+07/06/2019 12:51:49.094 - [INFO] - Received UDP Socket call for method[bookEvent] with parameters[{eventId=OTWE080619, customerId=TORC1234, eventtype=CONFERENCES}]
+07/06/2019 12:51:55.902 - [INFO] - Received UDP Socket call for method[getEventSchedule] with parameters[TORC1234]
+07/06/2019 12:53:21.377 - [INFO] - Received UDP Socket call for method[getEventSchedule] with parameters[TORC1234]
+07/06/2019 12:53:51.584 - [INFO] - Received UDP Socket call for method[getEventSchedule] with parameters[TORC1234]
+07/06/2019 12:54:10.193 - [INFO] - Received UDP Socket call for method[getEventSchedule] with parameters[TORC1234]
+07/06/2019 12:54:18.986 - [INFO] - Received UDP Socket call for method[getEventSchedule] with parameters[TORC1234]
+07/06/2019 12:54:26.659 - [INFO] - Received UDP Socket call for method[getEventSchedule] with parameters[TORC1234]
+07/06/2019 12:54:49.054 - [INFO] - Received UDP Socket call for method[getEventSchedule] with parameters[TORC1234]
+07/06/2019 12:56:44.109 - [INFO] - Making UPD Socket Call to TOR Server for method : getEventSchedule
+07/06/2019 12:56:44.113 - [INFO] - Making UPD Socket Call to MTL Server for method : getEventSchedule
+07/06/2019 12:56:44.114 - [INFO] - METHOD[getEventSchedule]; PARAMETERS[OTWC7890]; STATUS[true]; SERVER_MESSAGE[{}]
+07/06/2019 12:56:44.115 - [INFO] - METHOD[bookEvent]; PARAMETERS[OTWC7890, OTWE080619, CONFERENCES]; STATUS[false]; SERVER_MESSAGE[OTWE080619 is full.]
+07/06/2019 12:57:35.247 - [INFO] - Making UPD Socket Call to TOR Server for method : getEventSchedule
+07/06/2019 12:57:35.249 - [INFO] - Making UPD Socket Call to MTL Server for method : getEventSchedule
+07/06/2019 12:57:35.251 - [INFO] - METHOD[getEventSchedule]; PARAMETERS[OTWC7890]; STATUS[true]; SERVER_MESSAGE[{}]
+07/06/2019 12:57:49.569 - [INFO] - Received UDP Socket call for method[getEventSchedule] with parameters[TORC1234]
+07/06/2019 12:58:11.417 - [INFO] - Making UPD Socket Call to TOR Server for method : listEventAvailability
+07/06/2019 12:58:11.419 - [INFO] - Making UPD Socket Call to MTL Server for method : listEventAvailability
+07/06/2019 12:58:11.420 - [INFO] - METHOD[listEventAvailability]; PARAMETERS[OTWM4560, CONFERENCES]; STATUS[true]; SERVER_MESSAGE[{OTWE110619=1, OTWE080619=0, MTLA090619=2}]
+07/06/2019 12:58:18.577 - [INFO] - Making UPD Socket Call to TOR Server for method : listEventAvailability
+07/06/2019 12:58:18.578 - [INFO] - Making UPD Socket Call to MTL Server for method : listEventAvailability
+07/06/2019 12:58:18.579 - [INFO] - METHOD[listEventAvailability]; PARAMETERS[OTWM4560, SEMINARS]; STATUS[true]; SERVER_MESSAGE[{MTLE230719=0}]
+07/06/2019 12:58:20.336 - [INFO] - Making UPD Socket Call to TOR Server for method : listEventAvailability
+07/06/2019 12:58:20.337 - [INFO] - Making UPD Socket Call to MTL Server for method : listEventAvailability
+07/06/2019 12:58:20.338 - [INFO] - METHOD[listEventAvailability]; PARAMETERS[OTWM4560, CONFERENCES]; STATUS[true]; SERVER_MESSAGE[{OTWE110619=1, OTWE080619=0, MTLA090619=2}]
